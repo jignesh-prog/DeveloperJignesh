@@ -109,3 +109,39 @@ footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
 }
+@media only screen and (max-width:580px){
+    .skills{
+       width:70%;
+    }
+    .education{
+        width:70%;
+    }
+    p{
+        width:70%;
+    }
+    .summary{
+        display:block;
+        width:80%;
+    }
+    .img{
+        display:none;
+    }
+    h1{
+        font-size:35px;
+        justify-content:left;
+    }
+h2{ 
+    width:70%;
+font-size:25px;
+    }
+ul.competencies{
+    grid-template-columns:1fr;
+}
+.aside{
+    grid-template-columns: 1fr;
+}
+footer{
+    font-size:large;;
+    width:70%;
+}
+}
