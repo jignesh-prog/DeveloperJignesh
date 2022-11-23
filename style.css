@@ -1,0 +1,181 @@
+body {
+    position:relative;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color:rgb(202, 209, 189);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   .main{
+    width: 100%;
+    padding: 0;
+   }
+ 
+h1 {
+    color: Black;
+    background-color: rgb(152, 163, 152);;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid black;
+    margin: 0px;
+    padding:10px 0;
+    position:fixed;
+    top:0px;
+    left:0;
+    right: 0;
+    z-index: 1;
+ 
+}
+h2 {
+    color:darkslategray;
+    position: relative;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+.firstp{
+    text-align: left;
+}
+.summary{
+    
+    width: 70%;
+    margin: 10px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 0px;
+   
+}
+p {
+    font-size: larger;
+    font-weight: 500;
+    position: relative;
+    line-height: 1.5em;
+    text-align: justify;
+    padding: 0 25px;;
+    font-style: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+}
+.img {
+    width: 150px;
+    height: 180px;
+    border: 1px solid transparent;
+    border-radius:20%;
+    display: inline-block;
+    position:absolute;
+    right: 10%;
+    top:200px;
+    
+   }
+.video {
+    display:relative;
+    width:300px;
+    height:200px;
+    border: 2px solid black;
+    justify-content: left;
+} 
+a:hover {
+    color: red;
+}
+.skills {
+    text-align: justify;
+}
+.experience {
+    margin-bottom: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ;
+}
+.project{
+    margin-bottom: 10px;
+    color:darkblue;
+    font-size: larger;
+    font-style: italic;
+    font-weight: 500;
+    right: 200px;
+}
+ul.competencies {
+    position: relative;
+    line-height: 1.5em;
+    font-weight: bolder;
+    font-size: larger;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+   }
+#skydive {
+    font-weight: 700;
+    font-family:'Segoe UI' ;
+    font-size: large;
+    
+}
+.education{
+    
+}
+   .aside{
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-size: large;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+footer {
+    background-color: rgb(152, 163, 152);
+    color:darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+@media only screen and (max-width:680px){
+    .skills{
+    
+    }
+    .education{
+        
+    }
+  
+    .summary{
+        display:block;
+        justify-content: center;
+        width: 100%;
+    }
+    .img{
+        display:none;
+    }
+    h1{
+        font-size:35px;
+        text-align:center;
+    }
+h2{  =
+font-size:25px}
+ul.competencies{
+    grid-template-columns:1fr;
+    
+    
+
+}
+.aside{
+    grid-template-columns: 1fr;
+}
+footer{
+    font-size:large;
+   
+}
+.main{
+    padding:0;
+    margin:0;
+    text-align: center;
+}
+body{
+    padding:0;
+    margin:0;
+    text-align: center;
+}
+.project{
+    width:50%;
+    justify-content:left;
+    font-size:20px;
+}
+.video{
+    display:relative;
+    justify-items: center;
+}
+}
